@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="shortcut icon" href="files/favicon.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <h1>Tic-Tac-Toe</h1>
+        <h2 id="text_move">Next move</h2>
+        <span id="block_move"></span>
+    </header>
+    <main>
+        <div id="blocks">
+            <span class="block" id=0 onclick="select(0)"></span>
+            <span class="block" id=1 onclick="select(1)"></span>
+            <span class="block" id=2 onclick="select(2)"></span>
+            <span class="block" id=3 onclick="select(3)"></span>
+            <span class="block" id=4 onclick="select(4)"></span>
+            <span class="block" id=5 onclick="select(5)"></span>
+            <span class="block" id=6 onclick="select(6)"></span>
+            <span class="block" id=7 onclick="select(7)"></span>
+            <span class="block" id=8 onclick="select(8)"></span>
+        </div>
+        <div id="wins">
+            <h2 id="blue">Blue: 0</h2>
+            <h2 id="red">Red: 0</h2>
+        </div>
+    </main>
+    <script src="scripts/script.js"></script>
+</body>
+</html>

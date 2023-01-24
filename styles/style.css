@@ -1,0 +1,47 @@
+body {
+    font-size: 24px;
+    text-align: center;
+}
+
+.block {
+    padding-left: 23%;
+    padding-bottom: 23%;
+    margin: 1%;
+    background-color: bisque;
+    cursor: pointer;
+    display: inline-block;
+    border: 3px solid black;
+}
+
+#blocks {
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+#block_move {
+    display: inline-block;
+    padding-left: 25px;
+    padding-bottom: 25px;
+    background-color: aqua;
+    border: 2px solid black;
+}
+
+#text_move {
+    display: inline-block;
+}
+
+#wins {
+    max-width: 750px;
+}
+
+#blue{
+    display: inline-block;
+    position: fixed;
+    left: 20%;
+}
+
+#red {
+    display: inline-block;
+    position: fixed;
+    right: 20%;
+}
